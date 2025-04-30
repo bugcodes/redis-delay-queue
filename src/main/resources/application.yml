@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 5000ms
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 5
+        min-idle: 2
+        max-wait: 3000ms
+    password: 123456
+
+  thymeleaf:
+    cache: false
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+file:
+  storage:
+    original-dir: /Users/zbj/Downloads
+    public-static-dir: /Users/zbj/IdeaProjects/redis-delay-queue
