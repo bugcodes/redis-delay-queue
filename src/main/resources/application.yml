@@ -25,3 +25,5 @@ file:
   storage:
     original-dir: /Users/zbj/Downloads
     public-static-dir: /Users/zbj/IdeaProjects/redis-delay-queue
+    valid-seconds: 1800
+    renew-threshold-seconds: 600
